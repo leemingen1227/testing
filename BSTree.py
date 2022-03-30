@@ -17,6 +17,9 @@ class Node():
 class BS_tree():
     def __init__(self):
         self.root = None
+        
+    def test(self):
+        print(test)
 
     def inorder(self, output):      # print the in-order traversal of binary search tree
         node_list = [] 
